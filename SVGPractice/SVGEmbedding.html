@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Matthew Bennett
+    1/18/2024-->
+  <html lang="en">
+    <head>
+      <title>SVG Embedding</title>
+      <meta name="author" content="Matthew Bennett" />
+      <meta charset="UTF-8" />
+      <meta name="description" content="Practice using SVG in HTML" />
+      <meta name="keywords" content="svg practice client-side server-side software developer programmer" />
+      <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    </head>
+    <body>
+        <!-- SVG Tutorial Option 1 using img tag -->
+  <img src="images/face.svg">;
+  <p>Standard img embed</p>
+  
+  <!-- SVG Tutorial Option 2 embedding XML code -->
+  <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+		<!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+		<g class="layer">
+		 <title>Layer 1</title>
+		 <path d="m268,141c0,0 48,49 -87,-4c-135,-53 -20,64 20,79c40,15 75,-58 75,-58" fill="#0000ff" fill-opacity="null" id="svg_4" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null"/>
+		 <path d="m323,126c0,0 -5,85 129,-19c134,-104 -18,166 -70,121c-52,-45 -57,-86 -57,-86c0,0 -2,-16 -2,-16z" fill="#0000FF" fill-opacity="null" id="svg_5" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" transform="matrix(1, 0, 0, 1, 0, 0)"/>
+		 <path class="my-shape" d="m72,216c0,0 147,171 415,2c268,-169 -71,248 -174,182c-103,-66 -241,-184 -241,-184z" fill="#FF0000" fill-opacity="null" id="svg_6" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null"/>
+		</g>
+	 </svg>
+   <p>Using SVG code to change fill of eyes</p>
+  
+	<object type="images/svg+xml" data="face.svg">
+	  <img src="images/face.png" alt="welcome greeting">
+	</object>
+  <p>Using object embed for use later</p>
+
+    </body>
+  </html>
