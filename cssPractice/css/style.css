@@ -1,0 +1,29 @@
+/* Matthew Bennett */
+/* February 15 2024 */
+header {
+  background-color:chartreuse;
+}
+footer {
+  background-color:chartreuse;
+}
+p {
+  font-size:20px;
+}
+ul {
+  font-size:20px;
+}
+li {
+  font-size:20px;
+}
+a:link {
+  color:black;
+}
+a:visited {
+  color:darkcyan;
+}
+a:hover {
+  color:darkorchid;
+}
+a:active {
+  color:brown;
+}
