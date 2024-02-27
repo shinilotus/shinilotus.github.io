@@ -1,0 +1,49 @@
+/* Matthew Bennett
+February 27 2024 */
+#outerwrapper {
+	margin-left:auto;
+	margin-right:auto;
+	width:70%
+} 
+
+.floatleft { 
+float:left;
+margin-right:3%;
+}
+
+.floatright {
+float:right;
+margin-left:3%;
+}
+
+main, footer { 
+clear: both;
+background-color:#C5A98B;
+padding:10px
+}
+body {
+	background-color: #b8d1eb;
+	text-decoration-color:#000000;
+	font-family:'Times New Roman', Times, serif;
+}
+.empty {
+	list-style-type:none;
+}
+h1 {
+	font-family:'Garamond', serif;
+	font-size:xx-large;
+}
+h2 {
+	font-family:'Georgia', serif;
+	font-weight:normal;
+	font-style:italic;
+}
+.tomato {
+	list-style-image:url("../images/tomato20.png")
+}
+footer {
+	background-color:#954e3c;
+	font-size:0.75em;
+	text-align:center;
+	padding:10px 10px
+}
