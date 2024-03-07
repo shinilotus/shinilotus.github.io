@@ -1,0 +1,13 @@
+/* Practice CustomFonts Style Sheet */
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+.websafe{
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.google {
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
