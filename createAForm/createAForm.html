@@ -22,19 +22,19 @@
     </style>
 </head>
 <body>
-    <form name="application-form" method="get" action="mailto:mattbennett1@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+    <form action="mailto:mattbennett1@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
         <!-- Group Fields Together, page 104 -->
         <fieldset>
         <legend>How do I contact you?</legend>
             <!-- Company Select Box, page 97 -->
             <div>
-                <form>Company Name:</form>
-                <input type="text" name="company_name" id="company-name" required>
+                <label for="company">Company:</label>
+                <input type="text" name="compName" size="50" id="company" required>
             </div>
             <!-- Person to Contact Select Box, page 97 -->
             <div>
-                <form>Person to contact:</form>
-                <input type="text" name="person_contact" id="person-contact" required>
+                <label for="contact">Person to contact:</label>
+                <input type="text" name="person_contact" size="50" id="contact" required>
             </div>
             <!-- Email, textbook file rental.html -->	
             <!--Video 9.9 Building and Testing a Valid Form-->	
