@@ -1,0 +1,65 @@
+
+/* Matthew Bennett 3/19/2024 */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face{
+	font-family:'Roboto';
+	src:url("../fonts/roboto-regular-webfont.woff") format('woff');
+	src:url("../fonts/roboto-regular-webfont.woff2") format('woff');
+}
+.pacifico-regular {
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-style: normal;
+  }
+#outerwrapper {	
+	background: rgba(243,205,170, 0.4);
+	border-radius:15%;
+	width:70%;
+	margin: 0 auto;
+	padding:20px;
+}
+html{
+	background-image:url("../images/jewelry.jpg");
+	background-position:top;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+footer{
+	padding-bottom:10px;
+}
+main{
+	background:linear-gradient(#FFFFFF, #F0F9E6);
+	padding:10px;
+	margin:20px;
+	border-radius:2em;
+	font-size:1.25em;
+	font-family:Garamond, serif;
+}
+#necklace{
+	float:left;
+	border-radius:100%;
+}
+img.addrightmargin{
+	margin-right:10%;
+}
+nav ul{
+	list-style-type:none;
+	font-size:1.5em;
+	clear:both;
+}
+h1{
+	font-family:"Pacifico", cursive;
+	font-size:4em;
+}
+h2{
+	font-family:'Roboto';
+	font-style:italic;
+	font-size:2em;
+}
+footer{
+	font-size:1em;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+
