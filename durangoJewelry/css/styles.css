@@ -6,17 +6,11 @@
 	src:url("../fonts/roboto-regular-webfont.woff") format('woff');
 	src:url("../fonts/roboto-regular-webfont.woff2") format('woff');
 }
-.pacifico-regular {
-	font-family: "Pacifico", cursive;
-	font-weight: 400;
-	font-style: normal;
-  }
 #outerwrapper {	
 	background: rgba(243,205,170, 0.4);
 	border-radius:15%;
 	width:70%;
-	margin: 0 auto;
-	padding:20px;
+	margin:0 auto;
 }
 html{
 	background-image:url("../images/jewelry.jpg");
