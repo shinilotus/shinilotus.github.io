@@ -52,7 +52,7 @@ p span {
 }
 
 ul {
-    list-style-image: url(/images/marker.gif);
+    list-style-image: url(../images/marker.gif);
 }
 
 footer {
