@@ -1,0 +1,18 @@
+div {
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation: switch 4s infinite;
+}
+@keyframes switch {
+    0% {
+        background: red;
+    }
+    50% {
+        background: blue;
+        border-radius:50%;
+    }
+    100% {
+        background: red;
+    }
+}
