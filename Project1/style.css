@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+20&family=Lugrasimo&display=swap');
+@font-face {
+  font-family: 'Edo';
+  src: url('../fonts/Edo/edo-webfont.woff2') format('woff2'),
+       url('../fonts/Edo/edo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+html{
+  background-color:black;
+}
+#outerwrapper{
+  color:white;
+  border-radius:15%;
+	width:70%;
+  justify-content:center;
+	margin:0 auto;
+  text-align:center;
+  font-family:"Lugrasimo";
+}
+nav ul {
+  font-family:"Lugrasimo";
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image:linear-gradient(to right, #333333, #666666);
+}
+nav ul li {
+  float: left;
+}
+nav ul li .active {
+  background-color: purple;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: purple;
+}
+nav ul li a:visited {
+  font-family:"Lugrasimo";
+  color: blue;
+}
+nav ul li a:active {
+  background-color: blue;
+}
