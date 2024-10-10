@@ -1,0 +1,63 @@
+<html lang="en">
+    <head>
+      <title>Shop</title>
+      <meta name="author" content="Matthew Bennett" />
+      <meta charset="UTF-8" />
+      <meta name="description" content="Home Page of Build-A-Myth!" />
+      <meta name="keywords" content="home page build animal fun toy myth mythological" />
+      <meta name="viewport" content="width=device-width, initial scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+        </ul>
+      </nav>
+    <div id="outerwrapper">
+    <form action="mailto:mbennett1@my.cwi.edu" enctype="multipart/form-data" method=get>
+        <div>
+            <label for=head>Head:</label>
+            <select name=head id=head>
+                <option value=>Select a head</option>
+                <option>Lion</option>
+                <option>Tiger</option>
+                <option>Bear</option>
+                <option>Mouse</option>
+                <option>Deer</option>
+            </select>
+            <span>*</span>
+        </div>
+        <div>
+            <label for=body>Body:</label>
+            <select name=body id=body>
+                <option value=>Select a body</option>
+                <option>Lion</option>
+                <option>Tiger</option>
+                <option>Bear</option>
+                <option>Mouse</option>
+                <option>Deer</option>
+            </select>
+            <span>*</span>
+        </div>
+        <div>
+            <label for=email_address>E-Mail:</label>
+            <input type=text name=email_address id=email_address>
+            <span>*</span>
+        </div>
+        <div>
+            <label>Terms of Service:</label>
+            <input type=checkbox name=terms id=terms
+                value=yes>I accept
+            <span>*</span>
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type=submit id=purchase value=Purchase>
+            <input type=button id=reset_form value=Reset>
+        </div>
+    </form>
+    </div>
